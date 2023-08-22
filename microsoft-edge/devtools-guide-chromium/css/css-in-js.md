@@ -107,8 +107,8 @@ You can create a completely new stylesheet as well:
 ```javascript
 // Create a completely new stylesheet
 const sheet = new CSSStyleSheet();
-stylesheet.replaceSync('.some { color: blue; }');
-stylesheet.insertRule('.some { color: green; }');
+sheet.replaceSync('.some { color: blue; }');
+sheet.insertRule('.some { color: green; }');
 ```
 
 ```javascript
